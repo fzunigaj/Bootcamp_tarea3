@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <!--menu del encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Franki</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>      
+                                  
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="assets/img/hero.jpg" alt="">
+            </div>
+            <h1>Franki Zúñiga</h1>
+            <h3>Ingeniero en Sistemas</h3>
+            <div class="redes">
+                <a target="_blank" href="https://www.facebook.com/franki.zuniga.7/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.twitch.tv/frankizj"><i class="fab fa-github"></i></a>                
+                <a target="_blank" href="https://www.linkedin.com/in/frankizunigajimenez/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://www.credly.com/earner/earned"><i class="fa-solid fa-rss"></i></a>
+                <a target="_blank" href="#" ><i class="fab fa-whatsapp"></i></a>                
+            </div>
+        </div>
+    </section>
+     <!-- SECCION SOBRE MI -->
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Franki Zúñiga.</span>Profesional en el área de soporte técnico con 4 años de experiencia además de estudiante avanzado 
+                de Ingeniería en Sistemas, amplio conocimiento en tecnologías cloud y servicio al cliente. 
+                Soy una persona con habilidades de adaptación, pro-activo, comprometido con la empresa, y amante 
+                al aprendizaje continuo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>                       
+                        <li>
+                            <strong>Teléfono</strong>
+                            +506 86552664
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            frankizj19@yahoo.es
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Pococí, Limón, Costa Rica
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Technical Support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <button>
+                    <a id="download" href="/assets/docs/CV_Franki_Zuniga.pdf" download>Descargar CV</a>
+                    <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>              
+                </button>
+            </div>    
+        </div>
+    </section>
+    
+</body>
+</html>
